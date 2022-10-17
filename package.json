@@ -53,6 +53,6 @@
         ]
     },
     "simple-git-hooks": {
-        "pre-commit": "./lint-staged-each.sh"
+        "pre-commit": "npx lint-staged"
     }
 }
