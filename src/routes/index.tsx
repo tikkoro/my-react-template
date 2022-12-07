@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import type { FC } from 'react';
 import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
-import Home from 'components/templates/Home';
+import Home from '@/components/templates/Home';
 
 const IndexRoutes: FC = () => {
     const { hash, pathname } = useLocation();

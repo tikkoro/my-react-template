@@ -13,9 +13,9 @@ import {
     usePrefersReducedMotion,
     Spinner,
 } from '@chakra-ui/react';
-import ProductList from 'components/ecosystems/ProductList';
 import reactLogo from '../../assets/react.svg';
 import '../../App.css';
+import ProductList from '../ecosystems/ProductList';
 
 const title = import.meta.env.VITE_APP_TITLE;
 console.dir(import.meta.env);
