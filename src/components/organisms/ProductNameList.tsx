@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import { Box, Text } from '@chakra-ui/react';
-import { Product } from 'domains/fakeStoreApi';
+import { Product } from '@/domains/fakeStoreApi';
 
 type Props = { products: Product[] };
 
