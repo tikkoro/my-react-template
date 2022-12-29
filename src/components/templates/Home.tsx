@@ -16,6 +16,7 @@ import {
 import reactLogo from '../../assets/react.svg';
 import '../../App.css';
 import ProductList from '../ecosystems/ProductList';
+import ErrorRecovery from '../organisms/ErrorRecovery';
 
 const title = import.meta.env.VITE_APP_TITLE;
 console.dir(import.meta.env);
@@ -70,9 +71,11 @@ const Home: FC = () => {
             <Text color="#888" mb="4">
                 Click on the Vite and React logos to learn more
             </Text>
-            <Suspense fallback={<Spinner color="teal" />}>
-                <ProductList />
-            </Suspense>
+            <ErrorRecovery>
+                <Suspense fallback={<Spinner color="teal" />}>
+                    <ProductList />
+                </Suspense>
+            </ErrorRecovery>
         </>
     );
 };
