@@ -61,7 +61,11 @@ const Home: FC = () => {
             </Center>
             <Heading>{title}</Heading>
             <Box p="2">
-                <Button onClick={() => setCount((count) => count + 1)}>
+                <Button
+                    onClick={() => {
+                        setCount((count) => count + 1);
+                    }}
+                >
                     count is {count}
                 </Button>
                 <Text>
