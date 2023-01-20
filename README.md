@@ -12,16 +12,16 @@ SWR (Data fetching)
 
 In the project directory, you can run:
 
-### `yarn dev`
+### `pnpm dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:5173]
 
-### `yarn preview`
+### `pnpm preview`
 
 Builds the app for production to the build folder.
 
-### `yarn preview`
+### `pnpm preview`
 
 Runs the app in the build folder.
 
